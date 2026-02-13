@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "python-hello-app"
-        CONTAINER_NAME = "hello-container"
-        HOST_PORT = "81"
+        IMAGE_NAME = "python-hello-app-siva"
+        CONTAINER_NAME = "hello-container-siva"
+        HOST_PORT = "888"
         CONTAINER_PORT = "3000"
     }
 
